@@ -3,7 +3,7 @@ import api from './index'
 export default {
     async login(user) {
         const {data} = await api({
-            url: `/api/v1/panel/brands`,
+            url: `/login`,
             method: 'POST',
             data: user
         })
